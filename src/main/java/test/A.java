@@ -19,6 +19,7 @@ public class A {
     byte[] k = {0x11, 0x10, 0x1, 0x11};
 
     public static void main(String[] args) {
+        System.out.println("this is wonderful");
         byte[] bytes1 = new byte[]{(byte)0xB0};
         byte[] bytes = ByteUtil.getStringBytes("0x93",1);
         System.out.println(bytes1[0]);
